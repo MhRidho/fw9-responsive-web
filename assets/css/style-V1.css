@@ -1,21 +1,18 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    /* border: 0.5px solid black; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
     background-image: url(../img/Rectangle\ 43.png);
     background-repeat: no-repeat;
     background-position: top right;
-    font-family: 'Nunito Sans', sans-serif;
-    background-color: #E5E5E5;
 }
 
 .container {
     margin: 63px 150px 0 150px;
-
-}
-
-.z {
-    color: #6379F4;
-    font-size: 29px;
 }
 
 header {
@@ -23,347 +20,261 @@ header {
     justify-content: space-between;
 }
 
-
-button {
-    height: 100%;
-    width: 100px;
-    font-size: 18px;
-    border: transparent;
-    border-radius: 10px;
+header p {
+    font-size: 29px;
+    color: #6379F4;
 }
 
-.btn .satu {
+header .button {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .button button {
+    height: 100%;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+header .button button.login {
     color: white;
     background-color: #6379F4;
     border: 1px solid white;
 }
 
-.btn .dua {
+header .button button.sign {
     color: #6379F4;
     background-color: white;
     border: 1px solid #6379F4;
-    margin-right: 50px;
 }
 
-header .btn {
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
 
-    padding-right: 10px;
+nav.nav1 {
+    width: 50%;
+}
+
+nav.nav2 {
+    width: 50%;
+}
+
+nav div.nav1 p.p1 {
+    font-size: 60px;
+}
+
+nav div.nav1 p.p2 {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+nav div.nav1 button {
+    width: 173px;
+    height: 57px;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: #6379F4;
+    color: white;
+    border: transparent;
+    margin-top: 50px;
 }
 
 main {
-    margin-top: 120px;
+    background-color: rgba(71, 58, 209, 0.06);
+    height: 760px;
+}
 
+main div.container div.text {
+    text-align: center;
+}
+
+main div.container div.text .p1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+main div.container div.text .p2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px auto;
+    width: 50%;
+}
+
+main div.container div.row {
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
 }
 
-main .col1 {
-
-    width: 45%;
+main div.container div.row div.card {
+    background-color: white;
+    width: 370px;
+    text-align: center;
+    border-radius: 25px;
 }
 
-main .col2 {
-
-    background-image: url(../img/png-phone.png);
-    background-repeat: no-repeat;
-    width: 45%;
-    background-position: left;
+main div.container div.row div.card div.img {
+    margin-top: 40px;
 }
 
-main .p1 {
-    font-size: 60px;
+main div.container div.row div.card p.support {
+    margin-top: 35px;
+    font-size: 24px;
 }
 
-main .p2 {
+main div.container div.row div.card p.contact {
+    margin-top: 35px;
     font-size: 18px;
 }
 
-main .col1 .p1 span {
-    color: #6379F4;
+.container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .row .col1 h1 {
+    font-size: 60px;
+}
+
+.container .row .col1 p {
+    font-size: 18px;
 }
 
 section {
     background-color: rgba(71, 58, 209, 0.06);
-    padding-bottom: 80px;
 }
 
-section .about {
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .container .img {
+    margin-top: 50px;
+}
+
+section .container .features {
+    margin-top: 174px;
+}
+
+section .container .features h1 {
+    font-size: 60px;
+}
+
+section .container .features .list1 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+section .container .features .list2 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+section .container .features .list3 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+section .container .features .list1 h2 {
+    font-size: 20px;
+}
+
+section .container .features .list1 p {
+    font-size: 18px;
+}
+
+section .container .features .list2 h2 {
+    font-size: 20px;
+}
+
+section .container .features .list2 p {
+    font-size: 18px;
+}
+
+section .container .features .list3 h2 {
+    font-size: 20px;
+}
+
+section .container .features .list3 p {
+    font-size: 18px;
+}
+
+article .container .row h1 {
+    margin: 120px auto 0;
+    font-size: 60px;
+}
+
+article .container .row p {
+    text-align: center;
+    margin: 30px auto 0;
+    font-size: 18px;
+}
+
+article .container .row-card {
     margin-top: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.about span {
-    color: #6379F4;
-    font-size: 60px;
-}
-
-section .we {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-section .card {
-    display: flex;
-    justify-content: space-evenly;
-
-    margin: 70px 150px 0 150px;
-    padding: 10px;
-}
-
-section .card .col1 {
+article .container .row-card .card {
     background-color: white;
-    width: 350px;
+    width: 370px;
+    text-align: center;
     border-radius: 25px;
 }
 
-section .card .col2 {
-    background-color: white;
-    width: 350px;
-    border-radius: 25px;
-    margin: 0 20px 0 20px;
-}
-
-section .card .col3 {
-    background-color: white;
-    width: 350px;
-    border-radius: 25px;
-}
-
-section .card .col1 .img {
+article .container .row-card .card div.img {
     margin-top: 40px;
-    display: flex;
-    justify-content: center;
 }
 
-section .card .col1 .img img {
-    background-color: rgba(71, 58, 209, 0.1);
-    padding: 15px;
-    border-radius: 40%;
-}
-
-section .card .col2 .img {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-section .card .col2 .img img {
-    background-color: rgba(71, 58, 209, 0.1);
-    padding: 15px;
-    border-radius: 40%;
-}
-
-section .card .col3 .img {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-section .card .col3 .img img {
-    background-color: rgba(71, 58, 209, 0.1);
-    padding: 15px;
-    border-radius: 40%;
-}
-
-section .card .col1 .support {
+article .container .row-card .card p.support {
     margin-top: 35px;
     font-size: 24px;
-    text-align: center;
 }
 
-section .card .col1 .contact {
-    font-size: 18px;
-    text-align: center;
-}
-
-section .card .col2 .data {
-    font-size: 24px;
-    text-align: center;
-}
-
-section .card .col2 .sure {
-    font-size: 18px;
-    text-align: center;
-}
-
-section .card .col3 .easy {
-    font-size: 24px;
-    text-align: center;
-}
-
-section .card .col3 .total {
-    font-size: 18px;
-    text-align: center;
-}
-
-.partner .col1 {
-    margin: 80px;
-}
-
-.partner p {
-    font-size: 60px;
-}
-
-.partner span {
-    font-size: 18px;
-}
-
-.row-feat {
-    background-color: rgba(71, 58, 209, 0.1);
-    display: flex;
-}
-
-.row-feat .col-1 {
-
-    width: 40%;
-    padding-left: 40px;
-}
-
-.row-feat .col-2 {
-
-    width: 60%;
-}
-
-div.row-feat div.col-2 div.great {
-
-    margin-top: 30px;
-    width: 70%;
-    margin-bottom: 40px;
-}
-
-div.row-feat div.col-2 div.great p {
-    font-size: 60px;
-}
-
-
-div.row-feat div.col-2 div.feat-1 {
-
-    width: 70%;
-    border-radius: 25px;
-    background-color: white;
-    margin-bottom: 30px;
-}
-
-.row-people .people {
-    text-align: center;
-    font-size: 60px;
-}
-
-.row-people .say {
-    text-align: center;
-    font-size: 18px;
-}
-
-/* Row People */
-.row-people .card {
-    display: flex;
-    justify-content: space-evenly;
-
-    margin: 70px 150px 0 150px;
-    padding: 10px;
-}
-
-.row-people .card .col1 {
-    background-color: white;
-    width: 350px;
-    border-radius: 25px;
-}
-
-.row-people .card .col2 {
-    background-color: white;
-    width: 350px;
-    border-radius: 25px;
-    margin: 0 20px 0 20px;
-}
-
-.row-people .card .col3 {
-    background-color: white;
-    width: 350px;
-    border-radius: 25px;
-}
-
-.row-people .card .col1 .img {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.row-people .card .col1 .img img {
-    background-color: rgba(71, 58, 209, 0.1);
-    padding: 15px;
-    border-radius: 40%;
-}
-
-.row-people .card .col2 .img {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.row-people .card .col2 .img img {
-    background-color: rgba(71, 58, 209, 0.1);
-    padding: 15px;
-    border-radius: 40%;
-}
-
-.row-people .card .col3 .img {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.row-people .card .col3 .img img {
-    background-color: rgba(71, 58, 209, 0.1);
-    padding: 15px;
-    border-radius: 40%;
-}
-
-.row-people .card .col1 .support {
+article .container .row-card .card p.contact {
     margin-top: 35px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.row-people .card .col1 .contact {
     font-size: 18px;
-    text-align: center;
-}
-
-.row-people .card .col2 .data {
-    font-size: 24px;
-    text-align: center;
-}
-
-.row-people .card .col2 .sure {
-    font-size: 18px;
-    text-align: center;
-}
-
-.row-people .card .col3 .easy {
-    font-size: 24px;
-    text-align: center;
-}
-
-.row-people .card .col3 .total {
-    font-size: 18px;
-    text-align: center;
 }
 
 footer {
     background-color: #6379F4;
 }
 
-footer .zf {
+footer .container h1 {
     color: white;
     font-size: 36px;
-    margin-top: 90px;
-    margin: 60px;
 }
 
-footer .simply {
+footer .container p {
     color: white;
     font-size: 18px;
-    margin: 60px;
+    margin-top: 30px;
+}
+
+footer .container hr {
+    color: white;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+footer .container .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer .cp {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
 }
