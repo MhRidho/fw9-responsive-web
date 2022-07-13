@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Rectangle\ 43.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.container {
+    margin: 63px 150px 0 150px;
+
+}
+
+.z {
+    color: #6379F4;
+    font-size: 29px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button {
+    height: 100%;
+    width: 100px;
+    font-size: 18px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.btn .satu {
+    color: white;
+    background-color: #6379F4;
+    border: 1px solid white;
+}
+
+.btn .dua {
+    color: #6379F4;
+    background-color: white;
+    border: 1px solid #6379F4;
+    margin-right: 50px;
+}
+
+header .btn {
+
+    padding-right: 10px;
+}
+
+main {
+    margin-top: 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+main .col1 {
+
+    width: 45%;
+}
+
+main .col2 {
+
+    background-image: url(../img/png-phone.png);
+    background-repeat: no-repeat;
+    width: 45%;
+    background-position: left;
+}
+
+main .p1 {
+    font-size: 60px;
+}
+
+main .p2 {
+    font-size: 18px;
+}
+
+main .col1 .p1 span {
+    color: #6379F4;
+}
+
+section {
+    background-color: rgba(71, 58, 209, 0.06);
+    padding-bottom: 80px;
+}
+
+section .about {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about span {
+    color: #6379F4;
+    font-size: 60px;
+}
+
+section .we {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+section .card {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 70px 150px 0 150px;
+    padding: 10px;
+}
+
+section .card .col1 {
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+}
+
+section .card .col2 {
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+    margin: 0 20px 0 20px;
+}
+
+section .card .col3 {
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+}
+
+section .card .col1 .img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+section .card .col1 .img img {
+    background-color: rgba(71, 58, 209, 0.1);
+    padding: 15px;
+    border-radius: 40%;
+}
+
+section .card .col2 .img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+section .card .col2 .img img {
+    background-color: rgba(71, 58, 209, 0.1);
+    padding: 15px;
+    border-radius: 40%;
+}
+
+section .card .col3 .img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+section .card .col3 .img img {
+    background-color: rgba(71, 58, 209, 0.1);
+    padding: 15px;
+    border-radius: 40%;
+}
+
+section .card .col1 .support {
+    margin-top: 35px;
+    font-size: 24px;
+    text-align: center;
+}
+
+section .card .col1 .contact {
+    font-size: 18px;
+    text-align: center;
+}
+
+section .card .col2 .data {
+    font-size: 24px;
+    text-align: center;
+}
+
+section .card .col2 .sure {
+    font-size: 18px;
+    text-align: center;
+}
+
+section .card .col3 .easy {
+    font-size: 24px;
+    text-align: center;
+}
+
+section .card .col3 .total {
+    font-size: 18px;
+    text-align: center;
+}
+
+.partner .col1 {
+    margin: 80px;
+}
+
+.partner p {
+    font-size: 60px;
+}
+
+.partner span {
+    font-size: 18px;
+}
+
+.row-feat {
+    background-color: rgba(71, 58, 209, 0.1);
+    display: flex;
+}
+
+.row-feat .col-1 {
+
+    width: 40%;
+    padding-left: 40px;
+}
+
+.row-feat .col-2 {
+
+    width: 60%;
+}
+
+div.row-feat div.col-2 div.great {
+
+    margin-top: 30px;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+div.row-feat div.col-2 div.great p {
+    font-size: 60px;
+}
+
+
+div.row-feat div.col-2 div.feat-1 {
+
+    width: 70%;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.row-people .people {
+    text-align: center;
+    font-size: 60px;
+}
+
+.row-people .say {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Row People */
+.row-people .card {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 70px 150px 0 150px;
+    padding: 10px;
+}
+
+.row-people .card .col1 {
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.row-people .card .col2 {
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+    margin: 0 20px 0 20px;
+}
+
+.row-people .card .col3 {
+    background-color: white;
+    width: 350px;
+    border-radius: 25px;
+}
+
+.row-people .card .col1 .img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.row-people .card .col1 .img img {
+    background-color: rgba(71, 58, 209, 0.1);
+    padding: 15px;
+    border-radius: 40%;
+}
+
+.row-people .card .col2 .img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.row-people .card .col2 .img img {
+    background-color: rgba(71, 58, 209, 0.1);
+    padding: 15px;
+    border-radius: 40%;
+}
+
+.row-people .card .col3 .img {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.row-people .card .col3 .img img {
+    background-color: rgba(71, 58, 209, 0.1);
+    padding: 15px;
+    border-radius: 40%;
+}
+
+.row-people .card .col1 .support {
+    margin-top: 35px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.row-people .card .col1 .contact {
+    font-size: 18px;
+    text-align: center;
+}
+
+.row-people .card .col2 .data {
+    font-size: 24px;
+    text-align: center;
+}
+
+.row-people .card .col2 .sure {
+    font-size: 18px;
+    text-align: center;
+}
+
+.row-people .card .col3 .easy {
+    font-size: 24px;
+    text-align: center;
+}
+
+.row-people .card .col3 .total {
+    font-size: 18px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6379F4;
+}
+
+footer .zf {
+    color: white;
+    font-size: 36px;
+    margin-top: 90px;
+    margin: 60px;
+}
+
+footer .simply {
+    color: white;
+    font-size: 18px;
+    margin: 60px;
+}
