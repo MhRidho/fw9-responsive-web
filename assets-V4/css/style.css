@@ -2,8 +2,157 @@
     margin: 0;
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
+    /* border: 1px solid black; */
 }
 
 .cover {
     background-image: url(/assets-V4/img/Mask\ Group.png);
+    background-size: cover;
+}
+
+.container {
+    margin: 0px 150px 0 150px;
+    padding-top: 63px;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .btn button {
+    height: 100%;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+nav .btn button.login {
+    color: white;
+    background-color: #6379F4;
+    border: 1px solid white;
+}
+
+nav .btn button.sign {
+    color: #6379F4;
+    background-color: white;
+    border: 1px solid #6379F4;
+}
+
+.container .main {
+    display: flex;
+}
+
+.container .main .col2 {
+    margin-top: 180px;
+}
+
+.container .main .col2 button {
+    color: #6379F4;
+    font-weight: 700;
+    background-color: white;
+    border: transparent;
+    height: 50px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+main {
+    background-color: rgba(71, 58, 209, 0.06);
+    height: 760px;
+}
+
+main div.container div.text {
+    text-align: center;
+}
+
+main div.container div.text h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+main div.container div.text .p2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px auto;
+    width: 50%;
+}
+
+main div.container div.row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main div.container div.row div.card {
+    background-color: white;
+    width: 370px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+main div.container div.row div.card div.img {
+    margin-top: 40px;
+}
+
+main div.container div.row div.card p.support {
+    margin-top: 35px;
+    font-size: 24px;
+}
+
+main div.container div.row div.card p.contact {
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #6379F4;
+}
+
+footer .container h1 {
+    color: white;
+    font-size: 36px;
+}
+
+footer .container p {
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+footer .container hr {
+    color: white;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+footer .container .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer .cp {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+}
+
+div.transfer {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+div.transfer h1 {
+    font-size: 68px;
+    color: #6379F4;
+}
+
+div.transfer h2 {
+    font-size: 60px;
 }
