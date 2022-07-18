@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page V2</title>
+    <title>Landing Page V3</title>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <link rel="stylesheet" href="./assets-V3/css/style.css">
 </head>
 
@@ -16,21 +17,21 @@
             <nav>
                 <span style="font-size: 29px; color: white; font-weight: bold;">Zwallet</span>
                 <div class="btn">
-                    <button class="login">Login</button>
-                    <button class="sign">Sign Up</button>
+                    <button class="login"><a class="a-login" href="./login.html">Login</a></button>
+                    <button class="sign"><a class="a-sign" href="./signUp.html">Sign Up</a></button>
                 </div>
             </nav>
             <div class="main">
-
                 <div class="col2" style="color: white;">
-                    <h1 style="font-size: 60px; margin-bottom: 40px;">Awesome App
-                        For Saving <span style="color: #6379F4;">Time.</span></h1>
-                    <p style="font-size: 18px; margin-bottom: 66px;">We bring you a mobile app for banking problems that
+                    <h1 style="font-size: 60px; margin-bottom: 40px;">Awesome App<br>
+                        For Saving Time.</h1>
+                    <p style="font-size: 18px; margin-bottom: 66px;">We bring you a mobile app for banking problems
+                        that<br>
                         oftenly wasting much of your times.</p>
-                    <button>Try It Free</button>
+                    <button><a class="a-try" href="./signUp.html">Try It Free</a></button>
                 </div>
-                <div class="col1">
-                    <img src="./assets-V2/img/Group 49.png" alt="Group 49">
+                <div class="col1" style="margin-top: 70px;">
+                    <img src="./assets-V3/img/png-phone.png" alt="png-phone.png">
                 </div>
             </div>
         </div>
@@ -38,12 +39,11 @@
     <!-- last home -->
 
     <!-- partner -->
-    <div class="partners" style="background-color: rgba(71, 58, 209, 0.06);">
-        <div class="container">
-            <h1 style="text-align: center; font-size: 60px;">- We are Partners -</h1>
-        </div>
+    <div class="partners">
+        <img src="./assets-V3/img/partners.png" alt="partners.png">
     </div>
 
+    <!-- ABOUT -->
     <main>
         <div class="container">
             <div class="text">
@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="card">
                     <div class="img">
-                        <img src="./assets-V1/img/Vector.png">
+                        <i data-feather="phone"></i>
                     </div>
                     <p class="support">24/7 Support</p>
                     <p class="contact">We have 24/7 contact support so you can contact us whenever you want and we will
@@ -63,7 +63,7 @@
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img src="./assets-V1/img/Vector.png">
+                        <i data-feather="lock"></i>
                     </div>
                     <p class="support">Data Privacy</p>
                     <p class="contact">We make sure your data is safe in our database and we will encrypt any data you
@@ -71,10 +71,10 @@
                 </div>
                 <div class="card">
                     <div class="img">
-                        <img src="./assets-V1/img/Vector.png">
+                        <i data-feather="download"></i>
                     </div>
                     <p class="support">Easy Download</p>
-                    <p class="contact">Zwallet is 100% totally free to use it’s now available on Google Play Store and
+                    <p class="contact">Zwallet is 100% totally free to use it's now available on Google Play Store and
                         App Store.</p>
                 </div>
             </div>
@@ -112,6 +112,7 @@
         </div>
     </div>
 
+    <!-- PEOPLE OPINION -->
     <main>
         <div class="container">
             <div class="text">
@@ -135,6 +136,7 @@
         </div>
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="foot-zw">
@@ -151,6 +153,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        feather.replace()
+    </script>
 </body>
 
 </html>

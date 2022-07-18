@@ -6,6 +6,7 @@
 
 .cover {
     background-image: url(/assets-V4/img/Mask\ Group.png);
+    background-size: cover;
 }
 
 .container {
@@ -59,7 +60,11 @@ nav .btn button.sign {
 
 main {
     background-color: rgba(71, 58, 209, 0.06);
-    height: 760px;
+
+}
+
+main div.container {
+    padding-bottom: 120px;
 }
 
 main div.container div.text {
@@ -89,6 +94,8 @@ main div.container div.row div.card {
     width: 370px;
     text-align: center;
     border-radius: 25px;
+    padding-bottom: 30px;
+    margin: 10px;
 }
 
 main div.container div.row div.card div.img {
@@ -136,4 +143,77 @@ footer .container .footer .cp {
     justify-content: space-between;
     color: white;
     margin: 20px;
+}
+
+.partners img {
+    background-size: cover;
+}
+
+.btn button a {
+    text-decoration: none;
+}
+
+.btn button .a-login {
+    font-weight: 700;
+    color: white;
+}
+
+.btn button .a-sign {
+    font-weight: 700;
+    color: #6379F4;
+}
+
+.cover .container .main .col2 button a {
+    text-decoration: none;
+}
+
+.cover .container .main .col2 button .a-try {
+    color: #6379F4;
+}
+
+
+@media screen and (max-width: 900px) {
+    .container .main {
+        display: inline;
+        background-image: unset;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        background-image: unset;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main div.container div.row {
+        margin-top: 70px;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .partners {
+        background-image: unset;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer .container .footer {
+        display: inline;
+    }
+
+    footer .container .footer .cp {
+        display: inline;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main div.container div.text .p2 {
+        text-align: center;
+        font-size: 18px;
+        margin: 30px auto;
+        width: 100%;
+    }
 }

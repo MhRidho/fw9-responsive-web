@@ -49,3 +49,38 @@
     --bs-modal-header-border-color: unset;
     --bs-modal-footer-border-color: unset;
 }
+
+.home-wallet {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 29px;
+}
+
+.home-wallet:hover {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 29px;
+}
+
+.a-login {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+}
+
+.a-login:hover {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+}
+
+.a-menu {
+    text-decoration: none;
+    font-weight: 700;
+    color: #6379F4;
+    font-size: 18px;
+}
