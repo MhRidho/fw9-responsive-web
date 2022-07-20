@@ -81,6 +81,13 @@
 .a-menu {
     text-decoration: none;
     font-weight: 700;
+    color: rgba(58, 61, 66, 0.8);
+    font-size: 18px;
+}
+
+.a-menu:hover {
+    text-decoration: none;
+    font-weight: 700;
     color: #6379F4;
     font-size: 18px;
 }

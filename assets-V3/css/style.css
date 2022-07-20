@@ -41,10 +41,13 @@ nav .btn button.sign {
 .container .main {
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid black; */
 }
 
 .container .main .col2 {
     margin-top: 180px;
+    /* border: 1px solid black; */
+    width: 100%;
 }
 
 .container .main .col2 button {
@@ -64,7 +67,7 @@ main {
 }
 
 main div.container {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 main div.container div.text {
@@ -102,14 +105,21 @@ main div.container div.row div.card div.img {
     margin-top: 40px;
 }
 
+main div.container div.row div.card div.img i {
+    background-color: gray;
+}
+
 main div.container div.row div.card p.support {
     margin-top: 35px;
     font-size: 24px;
+    font-weight: 700;
 }
 
 main div.container div.row div.card p.contact {
     margin-top: 35px;
     font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 footer {
@@ -215,5 +225,39 @@ footer .container .footer .cp {
         font-size: 18px;
         margin: 30px auto;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    div.partners img {
+        background-image: unset;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main div.container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    div.cover div.container div.main div.col1 img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container nav {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container .main {
+        display: inline;
+    }
+
+    header main div.wallpaper img {
+        display: none;
     }
 }
